@@ -1,0 +1,64 @@
+## Configuración de Visual Studio ##
+.vs/
+*.vcxproj.user
+*.vcxproj.filters.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Archivos de compilación ##
+# Carpetas de configuración
+Debug*/
+Release*/
+x64/Debug*/
+x64/Release*/
+build*/
+out*/
+
+# Archivos objeto, ejecutables y bibliotecas
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.app
+*.out
+*.a
+
+# Símbolos de depuración y bases de datos del depurador
+*.pdb
+*.ipdb
+*.ipch
+*.iobj
+*.idb
+
+## Archivos de IntelliSense y navegación ##
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+*.ncb
+
+## Archivos generados por compiladores ##
+*.log
+*.tlog
+*.lastbuildstate
+*.vspscc
+*.vssscc
+
+## Archivos de CMake (si se usa) ##
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+## Carpetas del sistema y temporales ##
+*~ 
+~$*
+Thumbs.db
+.DS_Store
+
+## (Opcional) VS Code ##
+.vscode/

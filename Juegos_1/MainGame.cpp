@@ -11,6 +11,7 @@ void MainGame::init()
 
 	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1); //TRABAJA CON 2 PANTALLA PARA QUE NO SE VEA EL RENDERIZADO CONTINUO
 	glClearColor(0.5f, 0.0f, 1.0f, 1.0f);
+	initShaders();
 
 }
 
@@ -28,6 +29,11 @@ void MainGame::processInput()
 			break;
 		}
 	}
+}
+
+void MainGame::initShaders()
+{
+	program.compileShaders("Shaders/colorShaderVert.txt", "Shaders/colorShaderFrag.txt");
 }
 
 MainGame::MainGame()
